@@ -1,0 +1,108 @@
+# === IDE 配置 ===
+.idea/
+*.iml
+*.iws
+codeStyles/
+inspectionProfiles/
+.vscode/
+*.swp
+*.swo
+
+# === 数据和权重（绝对不要上传） ===
+# 所有权重文件
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+*.torchscript
+
+# 所有数据集
+**/data/
+**/images/
+**/labels/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.json
+*.xml
+*.txt
+*.csv
+
+# 所有训练结果
+**/runs/
+**/train/
+**/val*/
+**/detect/
+exp*/
+
+# === Python 特定 ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === 虚拟环境 ===
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# === 日志和缓存 ===
+*.log
+*.sql
+*.sqlite
+*.db
+*.cache
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# === 系统文件 ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# === 临时文件 ===
+*~
+*.tmp
+*.temp
+*.bak
+*.backup

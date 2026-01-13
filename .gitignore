@@ -2,7 +2,7 @@
 data/
 runs/
 weights/
-
+!ancient_coins_detection/data
 !ancient_coins_detection/weights/
 __pycache__/
 *.pyc

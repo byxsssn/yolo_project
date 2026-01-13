@@ -3,5 +3,6 @@ data/
 runs/
 weights/
 
+!ancient_coins_detection/weights/
 __pycache__/
 *.pyc
